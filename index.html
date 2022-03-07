@@ -21,30 +21,54 @@
     </div>
 
     <form action="" method="get" name="calcula">
-        <h1>Calculadora x938</h1>
-        <p><input type="text" name="f" id="" disabled="disabled" placeholder="0"></p>
+        <div class="title-calc">
+            <h1>Calculadora x938</h1>
+        </div>
 
-        <p> <input type="button" name="" id="" value="1" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="2" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="3" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="+" onClick="javascript:calc(value);"></p>
+        <div class="div_screen">
+            <p><input type="text" name="f" id="screen" disabled="disabled" placeholder="0"></p>
+        </div>
 
-        <p> <input type="button" name="" id="" value="4" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="5" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="6" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="-" onClick="javascript:calc(value);"></p>
+        <div class="div btn btn_calc">
+            <p> <input type="button" name="" id="btn_one" title="um" value="1" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_two" title="dois" value="2" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_three" title="três" value="3" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_most" title="Soma" value="+" onClick="javascript:calc(value);"></p>
+        </div>
 
-        <p> <input type="button" name="" id="" value="7" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="8" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="9" onClick="javascript:calc(value);">
-            <input type="button" name="" id="" value="*" onClick="javascript:calc(value);"></p>
+        <div class="div btn btn_calc">
+            <p> <input type="button" name="" id="btn_four" title="Quatro" value="4" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_five" title="Cinco" value="5" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_six" title="Seis" value="6" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_anyless" title="Subtração" value="-"
+                    onClick="javascript:calc(value);"></p>
+        </div>
 
-        <p> <input type="button" name="" id="zero" value="0" onClick="javascript:calc(value);">
-            <input type="button" name="" id="divd" value="/" onClick="javascript:calc(value);"></p>
-        <input type="reset" name="" value="Apagar" id="">
-        <input type="button" name="" id="" value="=" onClick="javascript:calc(value);">
-        <p><b id="model-calc">model 920933WKW</b></p>
+        <div class="div btn btn_calc">
+            <p> <input type="button" name="" id="btn_seven" title="Sete" value="7" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_eight" title="Oito" value="8" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_nine" title="Nove" value="9" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_multiplies" title="Multiplicação" value="*"
+                    onClick="javascript:calc(value);">
+            </p>
+        </div>
 
+        <div class="div btn btn_calc">
+            <p> <input type="button" name="" id="btn_zero" title="Zero" value="0" onClick="javascript:calc(value);">
+                <input type="button" name="" id="btn_division" title="Divisão" value="/"
+                    onClick="javascript:calc(value);">
+            </p>
+        </div>
+
+        <div class="div btn btn_calc">
+            <input type="reset" name="" value="Apagar" id="btn_apagar" title="Apagar">
+            <input type="button" name="" id="btn_equal" title="1" value="=" onClick="javascript:calc(value);">
+        </div>
+
+        <div class="info_model calc">
+            <p><b id="model-calc">model 920933WKW</b></p>
+        </div>
+        
         <footer>
             <b id="dev">Desenvolvido por </b>
             <div style="display: inline-block; vertical-align: middle;"><a href="https://github.com/gehaimeBarros"
@@ -52,7 +76,7 @@
                         style="width: 23px;" /></a></div>
         </footer>
 
-        <script src="js/app.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
 
     </form>
 
