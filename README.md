@@ -1,4 +1,4 @@
 # Calculadora_2
 calculadora com um novo formato
 
-![calc](https://user-images.githubusercontent.com/59620736/156960038-1eebddf2-0e17-484c-bde3-22821ab0baf5.png)
+![calc-2](https://user-images.githubusercontent.com/59620736/157158563-6813dee9-9e70-4f53-8e41-12b6ddea267d.png)
