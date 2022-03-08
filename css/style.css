@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Arimo', sans-serif;
-    background-color: rgb(60, 68, 68);
+    background-color: #E5E4E2;
 }
 
 .modal {
@@ -11,21 +11,23 @@ body {
 }
 
 h1 {
-    color: rgb(110, 103, 103);
+    color: #0C090A;
     letter-spacing: 2px;
-    -webkit-text-stroke-color: rebeccapurple;
+    -webkit-text-stroke-color: #0C090A;
     -webkit-text-stroke-width: 0.2px;
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-right: 8rem;
+    line-height: 3.4rem;
 }
 
 form {
-    border: 1px solid rebeccapurple;
-    height: 27.5rem;
+    border: 1px solid #413839;
+    height: 29rem;
     width: 22rem;
     text-align: center;
     margin: auto;
-    border-radius: 7px;
-    background-color: black;
+    border-radius: 2rem;
+    background-color: #B6B6B4;
     margin-top: 5rem;
 }
 
@@ -34,27 +36,27 @@ input[type='button'] {
     height: 2.4rem;
     font-size: 18px;
     cursor: pointer;
-    background-color: dimgray;
-    border: 2px solid dimgray;
-    color: white;
+    background-color: #413839;
+    border: 2px solid #413839;
+    color: #F8F8FF;
     border-radius: 1px;
 }
 
 input[type='text'] {
-    height: 2.7rem;
+    height: 3.4rem;
     width: 14rem;
     border-radius: 4px;
     text-align: right;
     font-size: 20px;
-    background-color: rgb(119, 179, 159);
+    background-color: #BDEDFF;
     color: black;
-    border: 2px solid rgb(119, 179, 159);
+    border: 1px solid #413839;
 }
 
 input[type='button']:active,
 input[type='reset']:active {
-    background-color: black;
-    color: white;
+    background-color: #0C090A;
+    color: #F8F8FF;
 }
 
 input[type='reset'] {
@@ -64,9 +66,9 @@ input[type='reset'] {
     text-transform: uppercase;
     height: 2.4rem;
     cursor: pointer;
-    background-color: dimgray;
-    border: 2px solid dimgray;
-    color: white;
+    background-color: #413839;
+    border: 2px solid #413839;
+    color: #F8F8FF;
     border-radius: 1px;
 }
 
@@ -75,8 +77,9 @@ input[type='reset'] {
 }
 
 #model-calc {
-    color: white;
+    color: #0C090A;
     font-size: 10px;
+    line-height: 2rem;
     margin-left: 14rem;
     font-family: Arial;
 }
@@ -94,5 +97,5 @@ footer {
 }
 
 #dev {
-    color: white;
+    color: #0C090A;
 }
