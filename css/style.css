@@ -5,8 +5,7 @@ body {
     background-color: #E5E4E2;
 }
 
-.modal {
-    width: 200rem;
+.modal{
     text-align: center;
 }
 
@@ -20,7 +19,7 @@ h1 {
     line-height: 3.4rem;
 }
 
-form {
+form[name='calcula'] {
     border: 1px solid #413839;
     height: 29rem;
     width: 22rem;
@@ -28,7 +27,7 @@ form {
     margin: auto;
     border-radius: 2rem;
     background-color: #B6B6B4;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 input[type='button'] {
@@ -79,9 +78,27 @@ input[type='reset'] {
 #model-calc {
     color: #0C090A;
     font-size: 10px;
-    line-height: 2rem;
-    margin-left: 14rem;
+    margin-left: 13rem;
     font-family: Arial;
+    line-height: 4rem;
+}
+
+#btn-note {
+    margin-top: 10px;
+    width: 10rem;
+    height: 19px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    color: #0C090A;
+    border: none;
+    background-color: transparent;
+}
+
+.btn_btn-note {
+    margin: auto;
+    text-align: center;
 }
 
 footer {
