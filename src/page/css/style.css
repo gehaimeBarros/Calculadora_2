@@ -85,15 +85,28 @@ input[type='reset'] {
 
 #btn-note {
     margin-top: 10px;
-    width: 10rem;
-    height: 19px;
+    width: 24rem;
+    height: 40px;
     font-size: 1rem;
     cursor: pointer;
-    outline: 0;
-    box-shadow: 0 0 0 0;
     color: #0C090A;
-    border: none;
-    background-color: transparent;
+    border: 3px solid yellow;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    background-color: yellow;
+}
+
+#btn-note:hover{
+    background-color: blue;
+    color: white;
+}
+
+#btn-note:active{
+    background-color: red;
+    color: white;
+    border: 2px solid blue;
 }
 
 .btn_btn-note {
