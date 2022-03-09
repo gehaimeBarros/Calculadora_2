@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/avaliacao.css">
     <link rel="shortcut icon" href="https://img.icons8.com/color/96/000000/star--v1.png" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
     <title>Deixe sua nota | Like Like</title>
 </head>
 
@@ -27,8 +29,20 @@
                 title="Sucks big time">★</label>
         </div>
 
-        <p><textarea name="" id="respota" placeholder="sujestão?..." cols="30" rows="10" required /></textarea ></p>
-        <p><button onClick="window.location.href='index.html'">Sair</button></p>
+        <p><input type="text" placeholder="Nome" name="" id="nome" required /></p>
+        <p><textarea name="" id="respota" placeholder="sujestão?..." cols="30" rows="10" required /></textarea></p>
+        <p><button onclick="voltar(this)">Enviar</button></p>
+
+        <script>
+            function voltar() {
+                window.location.href = "/index.html";
+            }
+
+            $('button').click(function (){
+                var inputNome = $('#nome').val();
+                alert("Obrigado pela avaliação "+inputNome);
+            })
+        </script>
     </form>
 </body>
 
