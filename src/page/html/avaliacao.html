@@ -30,6 +30,7 @@
         </div>
 
         <p><input type="text" placeholder="Nome" name="" id="nome" required /></p>
+        <p><input type="email" name="" id="email" placeholder="Seu@email.com" required /></p>
         <p><textarea name="" id="respota" placeholder="sujestão?..." cols="30" rows="10" required /></textarea></p>
         <p><button onclick="voltar(this)">Enviar</button></p>
 
@@ -40,7 +41,8 @@
 
             $('button').click(function (){
                 var inputNome = $('#nome').val();
-                alert("Obrigado pela avaliação "+inputNome);
+                var inputEmail = $('#email').val();
+                alert("Obrigado(a) pela avaliação Sr(a) "+inputNome+"\n\nEnviamos algumas informações para seu E-mail: "+inputEmail);
             })
         </script>
     </form>

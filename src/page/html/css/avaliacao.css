@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-form{
+form {
     border: 2px solid white;
     width: 20rem;
     margin: auto;
@@ -12,12 +12,17 @@ form{
     margin-top: 2rem;
 }
 
-#nome {
+#nome,
+#email {
     width: 16.4rem;
     height: 1.8rem;
     border-radius: 4px;
     border: 2px solid #FFFFFF;
     cursor: pointer;
+}
+
+#nome {
+    text-transform: capitalize;
 }
 
 #name::placeholder {
@@ -37,7 +42,7 @@ h1 {
 }
 
 #respota {
-    height: 4rem;
+    height: 3rem;
     width: 16.4rem;
     cursor: pointer;
     background-color: #FFFFFF;
